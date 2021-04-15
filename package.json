@@ -1,12 +1,12 @@
 {
-  "name": "types-solhint",
+  "name": "@types/solhint",
   "version": "1.0.0",
   "description": "types for solhint",
   "types": [
     "types/lib/**/*.d.ts"
   ],
   "files": [
-    "types/lib**/*"
+    "types/lib/**/*"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
