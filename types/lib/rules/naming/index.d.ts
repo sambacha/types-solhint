@@ -1,0 +1,2 @@
+declare function _exports(reporter: any, config: any): (import("./const-name-snakecase") | import("./contract-name-camelcase") | import("./event-name-camelcase") | import("./func-name-mixedcase") | import("./func-param-name-mixedcase") | import("./modifier-name-mixedcase") | import("./private-vars-leading-underscore") | import("./use-forbidden-name") | import("./var-name-mixedcase"))[];
+export = _exports;

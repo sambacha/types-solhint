@@ -1,0 +1,24 @@
+{
+  "name": "types-solhint",
+  "version": "1.0.0",
+  "description": "types for solhint",
+  "types": [
+    "types/lib/**/*.d.ts"
+  ],
+  "files": [
+    "types/lib**/*"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate": "npx tsc lib/**/*.js --declaration --allowJs --emitDeclarationOnly --outDir types"
+  },
+  "keywords": [
+    "solhint",
+    "ethereum"
+  ],
+  "author": "sam bacha <sam@manifoldfinance.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "tsd": "^0.14.0"
+  }
+}
